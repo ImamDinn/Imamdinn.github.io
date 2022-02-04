@@ -1,0 +1,72 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-image: url(img/1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron h1,
+.jumbotron p {
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+#project {
+  background-image: url(img/1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 0;
+}
+
+#project .card {
+  opacity: 0;
+  transform: translate(0, -40px);
+  transition: 1s;
+}
+
+#project .card.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.pkiri,
+.pkanan {
+  opacity: 0;
+  transform: translate(-50px, 0) rotate(15deg);
+  transition: 1s;
+}
+
+.pkanan {
+  transform: translate(50px, 0) rotate(-15deg);
+}
+
+.pkiri.pmuncul,
+.pkanan.pmuncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+/* .row span {
+  display: block;
+  width: 100px;
+  height: 3px;
+  background-color: rgb(49, 47, 47);
+  border-radius: 3px;
+  margin: auto;
+} */
+
+section {
+  padding-top: 5rem;
+}
+
+/* .parallax-header {
+  background: #000;
+  background: linear-gradient(rgba(0, 0, 0, 0.3) rgba(0, 0, 0, 0.8)), url(img/1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
